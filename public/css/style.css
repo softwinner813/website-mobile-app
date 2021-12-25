@@ -1,0 +1,91 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box !important;
+}
+
+a, a:active, a:hover {
+    color: initial;
+    text-decoration: none;
+}
+
+:root {
+    --darkColor: #2A3344;
+    --lightColor: #4A5567;
+    --darkGray: darkgray;
+}
+
+body {
+    background-color: var(--darkColor);
+    color: #fff !important;
+}
+
+.bg-dark {
+    background-color: #263A53 !important;
+}
+
+.bg-dark-l {
+    background-color: var(--lightColor) !important;
+}
+
+.bg-darkgray {
+    background-color: var(--darkGray);
+}
+
+.bt-bot-l {
+    border-bottom: 1.5px solid lightgray !important;
+}
+
+.card {
+    background-color: var(--lightColor);
+}
+
+.text-black {
+    color: black !important;
+}
+
+input::placeholder {
+    color: white !important;
+}
+
+.bg-dark-l hr {
+    background: #fff !important;
+}
+
+.nav-tabs .nav-link {
+    background: var(--lightColor);
+    color: #fff;
+    border-radius: 0%;
+}
+
+.bg-dark select {
+    background: var(--lightColor) !important;
+    color: white !important;
+}
+
+.bg-dark select:focus {
+    box-shadow: none !important;
+}
+
+th, td {
+    color: white!important;
+}
+
+
+/******* Deposit Page Style ******/
+input#address::placeholder {
+            color: #495057!important;
+            opacity: 1; /* Firefox */
+            font-style: italic!important;
+            /*font-size: 16px;*/
+}
+
+/******* Exchange Page Style ***********/
+.exchange-panel{
+    /*background: white;*/
+    border-radius: 10px;
+    padding: 10px 0px;
+}
+.exchange-balance{
+    border-right: 1px solid #495057!important;
+}
